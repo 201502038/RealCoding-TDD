@@ -17,7 +17,7 @@ public class Main {
                     break;
 
                 case 2:
-                    UpgradeRockPaperScissors urps = this.makeUpgradeRockPaperScissors();
+                    RockPaperScissors urps = this.makeUpgradeRockPaperScissors();
                     urps.run();
                     break;
 
@@ -49,8 +49,8 @@ public class Main {
         return new UpDown();
     }
 
-    UpgradeRockPaperScissors makeUpgradeRockPaperScissors() {
-        return new UpgradeRockPaperScissors();
+    RockPaperScissors makeUpgradeRockPaperScissors() {
+        return new RockPaperScissors();
     }
 
     SpeedCalculate makeSpeedCalculate () {

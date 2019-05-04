@@ -27,7 +27,7 @@ public class MainTest {
 
     @Test
     public void makeUpgradeRockPaperScissorsTest(){
-        assertTrue(main.makeUpgradeRockPaperScissors().getClass()==UpgradeRockPaperScissors.class);
+        assertTrue(main.makeUpgradeRockPaperScissors().getClass()==RockPaperScissors.class);
     }   //UpgradeRockPaperScissors 생성 Test
 
 }
