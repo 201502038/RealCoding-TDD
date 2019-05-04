@@ -2,8 +2,12 @@
 import java.util.Scanner;
 
 public class Main {
+    public static void main(String[] args) {
+    Main playGame = new Main();
+    playGame.play();
+    }
     Scanner sc = new Scanner(System.in);
-    public void main(String[] args) {
+    public void play() {
         System.out.println("<<<랜덤게임을 시작합니다>>>");
         int select ;
         Scanner sc = new Scanner(System.in);
@@ -42,7 +46,8 @@ public class Main {
 
     public int selectGame(){
         this.printSelectGameMessage();
-        return 1;
+        int num = sc.nextInt();
+        return num;
     }
 
     UpDown makeUpDown(){

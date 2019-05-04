@@ -5,7 +5,6 @@ import static org.mockito.Mockito.mock;
 
 public class MainTest {
 
-
     @Test
     public void mainMock(){
         Main _main = mock(Main.class);
